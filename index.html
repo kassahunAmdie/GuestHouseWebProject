@@ -7,104 +7,120 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>National Construction and Realestate</title>
+  <title>National Construction and Real Estate</title>
 </head>
 <body id="home">
-  <header class="hero">
-    <div id="navbar" class="navbar top">
-        <img src="./img/logoTraced.png" alt="" class="logo">        
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#construction">Construction</a></li>
-          <li><a href="#realestate">Realestate</a></li>
-          <li><a href="#guest-house">Guest House</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="content">
-      <h1>National Construction and Realestate.</h1>
-      <p>Price, Quality and Location</p>
-      <a href="#about" class="btn"><i class="fas fa-chevron-down"></i> More info</a>
-    </div>
+  <header class="hero">    
+      <div id="navbar" class="navbar top">
+        <div class="container flex">
+          <div class="logo">
+            <a href="index.html">
+            <img src="./img/LogoFinal.png" alt="" class="logo"></a> 
+          </div>       
+          <nav>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>
+            <ul class="mobile-hide main-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Services</a>
+                <ul>
+                  <li><a href="#construction">Construction</a></li>
+                  <li><a href="#realestate">Real Estate</a></li>
+                  <li><a href="#guest-house">Guest House</a></li>
+                </ul>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    
+      <div class="content">
+        <h1><span>National</span> <span class="reduced-font">Construction and Real Estate.</span> </h1>
+        <p>Price, Quality and Location</p>
+        <a href="#about" class="btn btn-primary"><i class="fas fa-chevron-down"></i> More info</a>
+      </div>
   </header>
 
   <main>
     <!-- About Section -->
-    <section id="about" class="icons bg-light">
-      <div class="flex-items">
-        <div>
-          <i class="fas fa-duotone fa-person-digging fa-3x"></i>
+    <section id="about" class="icons">
+      <div class="container">
+        <div class="flex-items">
           <div>
-            <h2>Construction</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
-            <h2>ግንባታዎች</h2>
-            <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
+            <i class="fas fa-duotone fa-person-digging fa-2x"></i>
+            <div>
+              <h2>Construction</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
+              <h2>ግንባታዎች</h2>
+              <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
+            </div>
           </div>
+          <div>
+            <i class="fas fa-duotone fa-house fa-2x"></i>
+            <div>
+              <h2>Real Estate</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
+              <h2>የቤት ግንባታ</h2>
+              <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-regular fa-hotel fa-2x"></i>
+            <div>
+              <h2>Guest House</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
+              <h2>የእንግዳ ማረፊያ</h2>
+              <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
+            </div>
+          </div>        
         </div>
-        <div>
-          <i class="fas fa-duotone fa-house fa-3x"></i>
-          <div>
-            <h2>Realestate</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
-            <h2>መጠነሰፊ የቤት ግንባታ</h2>
-            <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-regular fa-hotel fa-3x"></i>
-          <div>
-            <h2>Guest House</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsa.</p>
-            <h2>የእንግዳ ማረፊያ</h2>
-            <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን.</p>
-          </div>
-        </div>        
       </div>
     </section>
 
     <!--About: Samples -->
     <section id="construction" class="flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column1">
-            <img src="img/construction3.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="column1">
+              <img src="img/construction3.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="column2 bg-primary">
-            <h4>Construction</h4>
-            <h2>What we provide</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur amet distinctio cupiditate est, non quibusdam?</p>
-            <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን</p>
-            <a href="#" class="btn btn-outline">
-              <i class="fas fa-chevron"> Find out more</i>
-            </a>
+          <div class="column">
+            <div class="column2 bg-primary">
+              <h4>Construction</h4>
+              <h2>What we provide</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur amet distinctio cupiditate est, non quibusdam?</p>
+              <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን</p>
+              <a href="construction.html" class="btn btn-outline">
+                <i class="fas fa-chevron"> Find out more</i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Realestate -->
+    <!-- Real Estate -->
     <section id="realestate" class="flex-columns flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column1">
-            <img src="img/Realestate-1.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="column1">
+              <img src="img/Realestate-1.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="column2 bg-secondary">
-            <h4>Realestate</h4>
-            <h2>What we provide</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus, quaerat explicabo iusto odit.</p>
-            <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን</p>
-            <a href="#" class="btn btn-outline">
-              <i class="fas fa-chevron"> Find out more</i>
-            </a>
+          <div class="column">
+            <div class="column2 bg-secondary">
+              <h4>Real Estate</h4>
+              <h2>What we provide</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus, quaerat explicabo iusto odit.</p>
+              <p>ማስታወሻ - እዚህ መግለጫዎችን ወይም ማንኛውንም ነገር ማከል እንችላለን</p>
+              <a href="realestate.html" class="btn btn-outline">
+                <i class="fas fa-chevron"> Find out more</i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -112,6 +128,7 @@
 
     <!-- Guesthouse -->
     <section id="guest-house" class="guest-house flex-columns">
+     <div class="container">
       <div class="row">
         <div class="column">
           <div class="column1">
@@ -130,131 +147,112 @@
           </div>
         </div>
       </div>
+     </div>
     </section>
 
 <!-- Gallery -->
     <section id="gallery" class="gallery flex-grid section-padding">
-      <header class="section-header">
-        <h4>A sample of our offerings</h4>
-        <h4>የናሙና አቅርቦቶች</h4>
-      </header>
-      <div class="row">
-        <div class="column">
-          <img src="img/construction-1.jpg" alt="">
-          <img src="img/construction.jpeg" alt="">
-        </div>
-        <div class="column">
-          <img src="img/Realestate-1.jpg" alt="">
-          <img src="img/Realestate-2.jpg" alt="">
-        </div>
-        <div class="column">
-          <img src="img/guestHouse.jpeg" alt="">
-          <img src="img/guestHouse2.jpeg" alt="">
-        </div>
-        <div class="column">
-          <img src="img/construction-1.jpg" alt="">
-          <img src="img/construction.jpeg" alt="">
+      <div class="container">
+        <header class="section-header">
+          <h4>A sample of our offerings</h4>
+          <h4>የናሙና አቅርቦቶች</h4>
+        </header>
+        <div class="row">
+          <div class="column">
+            <img src="img/construction-1.jpg" alt="">
+            <img src="img/construction.jpeg" alt="">
+          </div>
+          <div class="column">
+            <img src="img/PNG image 13.png" alt="">
+            <img src="img/PNG image 14.png" alt="">
+          </div>
+          <div class="column">
+            <img src="img/PNG image 17.png" alt="">
+            <img src="img/PNG image 20.png" alt="">
+          </div>
+          <div class="column">
+            <img src="img/PNG image 6.png" alt="">
+            <img src="img/PNG image 4.png" alt="">
+          </div>
         </div>
       </div>
     </section>
 
     <!-- The team -->
-    <section id="team" class="team section-padding">
-      <header class="section-header">
-        <h4>Our Professional Team</h4>
-        <h4>የእኛ ፕሮፌሽናል ቡድን</h4>
-        <p>Always ready to answer your questions</p>
-        <p>ለጥያቄዎችዎ መልስ ለመስጠት ሁል ጊዜ ዝግጁ ነን</p>
-      </header>
-      <div class="flex-items">
-        <div>
-          <img src="img/team1.jpg" alt="" >
-          <h4>Kebede Tessema</h4>
+    <section id="team">
+      <div class="container team-container team">
+        <div class="team-picture flex-items">
+          <img src="img/team11.jpg" alt="" >
+          <h5>Name Here</h5>
           <p>General Manager</p>
         </div>
-        <div>
-          <img src="img/team2.jpg" alt="">
-          <h4>Tessema Kebede</h4>
+        <header class="section-header">
+          <h4>Our Professional Team</h4>
+          <p>Always ready to answer your questions</p>
+          <h4>ፕሮፌሽናል ቡድናችን</h4>
+          <p>ለጥያቄዎችዎ መልስ ለመስጠት ሁል ጊዜ ዝግጁ ነው</p>
+        </header>
+        <!-- <div class="flex-items"> -->
+        
+        <div class="team-picture flex-items">
+          <img src="img/team22.jpg" alt="">
+          <h5>Name Here</h5>
           <p>Marketing Manager</p>
         </div>
-        <div>
-          <img src="img/team3.jpg" alt="">
-          <h4>Kebedech Tessema</h4>
-          <p>Customer relations Manager</p>
+        <div class="team-picture flex-items">
+          <img src="img/team33.jpg" alt="">
+          <h5>Name Here</h5>
+          <p>Customer relations</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact flex-columns flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column1">
-            <img src="img/location-map.png" alt="">
-          </div>
-        </div>
-        <div class="column">
-          <div class="column2 bg-light">
-            <h2>Our Location</h2>
-            <p>Bole Kifle Ketema <br> Addis Ababa <br>Ethiopia</p>
-            <h2>አድራሻችን</h2>
-            <p>ቦሌ ክፍለ ከተማ <br> አዲስ አበባ <br>ኢትዮጵያ</p>
-          </div>
-        </div>
+        <!-- </div> -->
       </div>
     </section>
   </main>
 
-  <footer class="footer bg-dark">
-    <div class="social">
-      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-      <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
-      <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
-      <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+<!-- Footer -->
+  <footer id="main-footer" class="bg-primary">
+    <div class="container footer-container">              
+      <div class="site-nav">
+        <div class="logo footer-logo">
+          <a href="index.html"><img src="./img/LogoFinal.png" alt="" class="logo"></a> 
+          <!-- <p>National <span>Construction and Real Estate</span></p> -->
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="realestate.html">Real Estate</a></li>
+            <li><a href="guest-house.html">Guest House</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact" class="social">
+        <p><i class="fas fa-mobile-alt "></i>(+251) 111 111111</p>
+        <p><i class="fas fa-envelope "></i>test@testmail.com</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div>
+        <h5>Our Location</h5>
+        <p>Bole Kifle Ketema <br> Addis Ababa <br>Ethiopia</p>
+        <h5>አድራሻችን</h5>
+        <p>ቦሌ ክፍለ ከተማ <br> አዲስ አበባ <br>ኢትዮጵያ</p>
+      </div>
+    
+      <div>
+        <img src="img/location-map.png" alt="">
+      </div>
+      <div>
+        <p class="copyright">Copyright &copy; 2022 - National Construction and Realestate</p>
+      </div>
     </div>
-    <p>Copyright &copy; 2022 - National Construction and Realestate</p>
   </footer>
-  <script
-      src="https://code.jquery.com/jquery-3.5.0.min.js"
-      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-      crossorigin="anonymous">
-  </script>
-    <script src="js/lightbox.min.js"></script>
-    <script>
-      const navbar = document.getElementById('navbar');
-      let scrolled = false;
 
-      window.onscroll = function () {
-        if (window.pageYOffset > 100) {
-          navbar.classList.remove('top');
-          if (!scrolled) {
-            navbar.style.transform = 'translateY(-70px)';
-          }
-          setTimeout(function () {
-            navbar.style.transform = 'translateY(0)';
-            scrolled = true;
-          }, 200);
-        } else {
-          navbar.classList.add('top');
-          scrolled = false;
-        }
-      };
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-      // Smooth Scrolling
-      $('#navbar a, .btn').on('click', function (e) {
-        if (this.hash !== '') {
-          e.preventDefault();
-
-          const hash = this.hash;
-
-          $('html, body').animate(
-            {
-              scrollTop: $(hash).offset().top - 100,
-            },
-            800
-          );
-        }
-      });
-    </script>
+  <script src="js/jsfile.js"></script>
 </body>
 </html>
