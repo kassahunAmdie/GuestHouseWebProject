@@ -184,3 +184,8 @@
 .image-overlay:hover {
   opacity: 1;
 }
+
+.image-gallery .image-overlay p {
+  color: var(--primary-color);
+}
+
